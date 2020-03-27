@@ -18,6 +18,9 @@ public class SimonFlashButtonTimer2 implements ActionListener {
     private Timer _timer = null;
     private int _delay = 200;
 
+    public SimonFlashButtonTimer2( SimonGamePanel2 parent ) {
+        this( parent, 200);
+    }
     public SimonFlashButtonTimer2(SimonGamePanel2 parent, int milliseconds ) {
         _parent = parent;
         _delay = milliseconds;
