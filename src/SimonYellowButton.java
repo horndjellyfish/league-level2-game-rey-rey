@@ -5,7 +5,7 @@ import java.awt.*;
 public class SimonYellowButton extends SimonGPButton {
     //subclass
     public SimonYellowButton() {
-        _name = "yellow";
+        //_name = "yellow";
         _buttonColorNumber = SimonPatternManager.YELLOW;
     }
 

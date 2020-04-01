@@ -24,6 +24,7 @@ public class SimonEndPanel extends JPanel implements KeyListener {
         g.setFont(subtitleFont);
         //g.drawString("Score: " + parent._gamePanel.score, 250, 400);
         g.drawString("Score: " + _score, 250, 400);
+        g.drawString("Press Enter to restart", 150, 500);
     }
 
     public void setScore ( int score ) {

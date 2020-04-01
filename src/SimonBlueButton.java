@@ -7,7 +7,7 @@ public class SimonBlueButton extends SimonGPButton {
 
     public SimonBlueButton() {
         _buttonColorNumber = SimonPatternManager.BLUE;
-        _name = "blue";
+        //_name = "blue";
     }
 
     protected Color getColor() {

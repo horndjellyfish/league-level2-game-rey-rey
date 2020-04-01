@@ -45,8 +45,8 @@ public class SimonGPButton {
             clr = getFlashColor();
 //System.out.println( "   " + _name + " FLASH-FLASH-FLASH-FLASH: " + clr);
         } else {
-            //clr = getColor();
-           clr = Color.GRAY;
+            clr = getColor();
+           //clr = Color.GRAY;
 //System.out.println( "   " + _name + " NO Flash: " + clr);
         }
         return clr;

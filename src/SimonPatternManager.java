@@ -46,7 +46,7 @@ public class SimonPatternManager {
         }
 
         // get random color
-        int nextColor = rand.nextInt(YELLOW);
+        int nextColor = rand.nextInt(4);
 
         // now check if random is same as last color
         // KLDUDGE. For now, I do not want 2 colors in a row

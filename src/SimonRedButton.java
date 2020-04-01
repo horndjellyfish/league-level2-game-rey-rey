@@ -6,7 +6,7 @@ public class SimonRedButton extends SimonGPButton {
 	// subclass
 
 	public SimonRedButton() {
-		_name = "red";
+		//_name = "red";
 		_buttonColorNumber = SimonPatternManager.RED;
 	}
 
