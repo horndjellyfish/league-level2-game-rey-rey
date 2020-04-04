@@ -33,7 +33,7 @@ public class SimonPatternManager {
     public void addToPattern() {
         int nextColor = getRandomColor();
         compPattern.add(nextColor);
-//System.out.println( "SimonPatterManager-AddColor: " + nextColor + "  Size: " + compPattern.size() ) ;
+
     }
 
     //  Generate Random Color
@@ -66,11 +66,11 @@ public class SimonPatternManager {
 
         boolean equals = false;
         if (pattern == null ) {
-            System.out.println( "PatterManager: user selection null");
+
         } else if (compPattern == null ) {
-            System.out.println( "PatterManager: comp pattern null");
+
         } else if (pattern.size() > compPattern.size() ) {
-            System.out.println( "PatterManager: user selection bigger than comp pattern");
+
         } else {
             for (int ii = 0; ii < pattern.size(); ii++){
                 //check each item against the compPattern

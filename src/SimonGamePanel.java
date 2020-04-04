@@ -119,11 +119,8 @@ public class SimonGamePanel extends JPanel implements ActionListener, MouseListe
     //check if button Click matches Simon's current Pattern
     public boolean checkUserSelections () {
         boolean match = false;
-
         // check all of user selection against computer generated Pattern
         int patternStatus = _patternManager.checkPattern( _userSelectionPattern);
-//System.out.println( "checkUserPattern: " + patternStatus);
-
         if (patternStatus == SimonPatternManager.PATTERN_DIFFERENT) {
             // WRONG selection !
             match = false;
@@ -133,13 +130,10 @@ public class SimonGamePanel extends JPanel implements ActionListener, MouseListe
         }  else if (patternStatus ==  SimonPatternManager.PATTERN_SAME_AND_DONE ) {
             match = true;
             // ALL Button Selections are Correct
-
             // increment the score
             _score++;
-
             // Now let's add Another color to patter
             _patternManager.addToPattern();
-
             //  Since new color added, our separate Flash Pattern needs updating
             UpdateFlashClonePattern();
         }

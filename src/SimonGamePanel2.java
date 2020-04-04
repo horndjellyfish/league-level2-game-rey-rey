@@ -153,12 +153,9 @@ public class SimonGamePanel2 extends JPanel implements  MouseListener {
         //       Trying to avoid starting/running two different timers at same time
         if ( _flashButtonTimer.isRunning()) {
             // ignore if we are flashing the button
-//System.out.println("flashButtonSelected: Button Timer Running");
         } else if (_flashPatternTimer.isRunning() ) {
             // ignore if we are flashing the pattern
-//System.out.println("flashButtonSelected: Button Pattern Running");
         } else {
-//System.out.println("flashButtonSelected: Start Timer" + button.getButtonName());
             // Start timer to flash the button
             _flashButtonTimer.start( button );
         }
@@ -170,7 +167,6 @@ public class SimonGamePanel2 extends JPanel implements  MouseListener {
     public void mousePressed(MouseEvent e) {
         // figure out what button was pressed
         SimonGPButton button = getButtonClicked( e.getX(), e.getY());
-//System.out.println("MousePressed: " + button.getButtonName());
 
         // Flash button to user (if all is okay to flash)
         flashButtonSelected( button );
