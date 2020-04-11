@@ -11,7 +11,7 @@ public class SimonRedButton extends SimonGPButton {
 	}
 
 	protected Color getColor() {
-		return (Color.RED.darker());
+		return (Color.RED.darker().darker());
 	}
 
 	protected int getX() {

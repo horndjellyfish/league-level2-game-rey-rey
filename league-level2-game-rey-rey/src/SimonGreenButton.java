@@ -9,7 +9,7 @@ public class SimonGreenButton extends SimonGPButton {
         _buttonColorNumber = SimonPatternManager.GREEN;
     }
     protected Color getColor() {
-        return (Color.GREEN.darker());
+        return (Color.GREEN.darker().darker());
     }
     protected int getX() {
         return 0;

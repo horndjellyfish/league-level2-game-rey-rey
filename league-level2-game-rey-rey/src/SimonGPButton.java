@@ -68,7 +68,7 @@ public class SimonGPButton {
 
     // Return the Button Flash Color
     public Color getFlashColor() {
-        return getColor().brighter();
+        return getColor().brighter().brighter();
     }
     // Return Button Start X
     protected int getX() {
